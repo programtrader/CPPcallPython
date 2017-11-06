@@ -1,0 +1,3 @@
+﻿  stdafx.cpp
+  CPPcallPython.cpp
+LINK : fatal error LNK1104: 无法打开文件“python36_d.lib”
