@@ -1,3 +1,17 @@
 ﻿  stdafx.cpp
   CPPcallPython.cpp
-LINK : fatal error LNK1104: 无法打开文件“python36_d.lib”
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyCallable_Check，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyUnicode_FromString，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyTuple_New，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyTuple_SetItem，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyDict_GetItemString，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyModule_GetDict，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__Py_BuildValue，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyRun_SimpleStringFlags，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__Py_Initialize，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__Py_Finalize，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__Py_IsInitialized，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyImport_Import，该符号在函数 _main 中被引用
+CPPcallPython.obj : error LNK2019: 无法解析的外部符号 __imp__PyObject_CallObject，该符号在函数 _main 中被引用
+..\..\..\..\..\Program Files\Python36\libs\python36.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\huangshan\Desktop\CPPcallPython\Debug\CPPcallPython.exe : fatal error LNK1120: 13 个无法解析的外部命令
